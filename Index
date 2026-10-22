@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brillos y Patitas | Ropa importada para perritos y perritas</title>
+<link rel="icon" href="LOGO FINAL.jpeg">
+<meta name="description" content="Vestidos, camisas, polos, overoles y accesorios importados para perritas y perritos. Elige la talla de tu mascota y pide por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#ff5fa2; --pink-dark:#d63384; --pink-tint:#ffe0ec;
+  --him:#1fb5c9; --him-dark:#0b8fa3; --him-tint:#d7f3f7;
+  --sun:#ffa62b; --sun-dark:#d97f00; --sun-tint:#fff0d6;
+  --soft:#f1e7e1; --softer:#fffaf5;
+  --ink:#231f20; --muted:#74686c; --white:#fff; --green:#25d366;
+  --accent:var(--pink); --accent-dark:var(--pink-dark); --tint:var(--pink-tint);
+  --radius:18px; --shadow:0 6px 18px rgba(35,31,32,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Fredoka',system-ui,sans-serif;background:var(--softer);color:var(--ink);line-height:1.45;padding-bottom:90px}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer;border:0}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+
+/* Header / hero */
+header.hero{background:linear-gradient(100deg,var(--pink-tint) 0%,#fff6ee 50%,var(--him-tint) 100%);padding:16px 0 16px;text-align:center;position:relative;overflow:hidden}
+header.hero::before,header.hero::after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:#fff;opacity:.55}
+.logo-img{width:min(230px,72vw);height:auto;object-fit:contain;border-radius:16px;background:#fff;box-shadow:0 6px 20px rgba(35,31,32,.12);display:block;margin:0 auto}
+header.hero::before{left:-90px;top:-110px}
+header.hero::after{right:-100px;bottom:-130px}
+.hero .wrap{position:relative;z-index:1}
+.logo{font-family:'Fredoka',sans-serif;font-weight:600;font-size:clamp(34px,8vw,56px);color:var(--ink)}
+.tagline{font-size:18px;color:var(--ink);margin-top:2px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.badge{background:#fff;border-radius:999px;padding:4px 10px;font-size:12.5px;box-shadow:var(--shadow)}
+
+/* Size bar */
+.sizebar-wrap{position:sticky;top:0;z-index:20;background:rgba(255,250,245,.96);backdrop-filter:blur(6px);border-bottom:2px solid var(--soft);padding:10px 0}
+.genders{display:flex;gap:8px;margin-bottom:10px}
+.gender{flex:1;padding:10px 6px;border-radius:14px;background:#fff;border:2px solid var(--soft);font-size:15px;font-weight:600;color:var(--ink)}
+.gender.active[data-gender=todos]{background:var(--ink);border-color:var(--ink);color:#fff}
+.gender.active[data-gender=f]{background:var(--pink);border-color:var(--pink);color:#fff}
+.gender.active[data-gender=m]{background:var(--him);border-color:var(--him);color:#fff}
+.sizebar-title{font-weight:600;font-size:15px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.link-btn{background:none;color:var(--ink);text-decoration:underline;font-size:14px;font-weight:500}
+.sizes{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 6px;scrollbar-width:thin}
+.size{flex:0 0 auto;min-width:54px;padding:10px 14px;border-radius:14px;background:#fff;color:var(--ink);font-size:17px;font-weight:600;border:2px solid var(--soft);text-align:center;line-height:1.1}
+.size small{display:block;font-size:11px;font-weight:400;color:var(--muted)}
+.size.active{background:var(--ink);border-color:var(--ink);color
+
